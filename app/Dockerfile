@@ -19,7 +19,8 @@ RUN pip3 install --no-cache-dir \
     plotly \
     scikit-learn \
     scipy \
-    ipython
+    ipython \
+    pmdarima
 
 # Configurer le dossier de travail
 WORKDIR /app
